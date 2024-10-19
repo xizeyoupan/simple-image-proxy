@@ -6,7 +6,7 @@ const app = new Hono()
 app.use('*', cors())
 
 app.get('/', (c) => {
-    return c.redirect('https://github.com/xizeyoupan/simple-image-proxy')
+    return c.text('https://github.com/xizeyoupan/simple-image-proxy')
 })
 
 app.get('/api', async (c) => {
