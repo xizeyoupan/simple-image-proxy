@@ -1,0 +1,25 @@
+{
+  "name": "simple-image-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:deno": "deno run --watch-hmr --allow-net --allow-env deno.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xizeyoupan/simple-image-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xizeyoupan/simple-image-proxy/issues"
+  },
+  "homepage": "https://github.com/xizeyoupan/simple-image-proxy#readme",
+  "dependencies": {
+    "hono": "^4.6.5"
+  }
+}
